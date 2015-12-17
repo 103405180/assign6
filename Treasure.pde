@@ -1,6 +1,7 @@
 class Treasure{
 	int x = 0;
 	int y = 0;
+	
 	PImage treasureImg;
 	Treasure () {
 		this.treasureImg = loadImage("img/treasure.png");
