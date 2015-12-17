@@ -31,9 +31,15 @@ class Fighter{
 		}
 	}
 
-	void shoot() {
-		
-	}
+  void shoot(){
+    if(bullets[bulletNbr] == null){
+      bullets[bulletNbr] = new Bullet(fighter.x,fighter.y);   
+      bulletNbr++;
+    }
+    if(bulletNbr>4){
+      bulletNbr=0;
+    }
+  }
 
 	void move(int direct) {
 		switch (direct) {
