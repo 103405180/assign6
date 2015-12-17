@@ -10,5 +10,4 @@ class HPDisplay {
 		rect(15,10, hp * 2 , 20 ) ;
 		image(hpUI,10,10);
 	}
-
 }
