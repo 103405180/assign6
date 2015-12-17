@@ -33,5 +33,6 @@ class Bullet {
       return true;
     } 
       return false;
+   
   }
 }
