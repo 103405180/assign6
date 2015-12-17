@@ -4,8 +4,8 @@ class Fighter{
 	int y = 0;
 	int type;
 	int speed = 5;
-
 	int hp;
+	
 	Fighter(int hp) {
 		this.fighterImg = loadImage("img/fighter.png");
 		this.x = width - this.fighterImg.width;
