@@ -74,5 +74,4 @@ public class FlameMgr{
 			flames.remove(flamesToRemove.get(i));
 		}
 	}
-
 }
