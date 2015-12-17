@@ -116,7 +116,6 @@ void draw()
                 }
               }
             }           		
-		// 這地方應該加入Fighter 血量顯示UI
     	hpDisplay.updateWithFighterHP(fighter.hp);	    
 	}
 	else if (state == GameState.END) {
